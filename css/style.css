@@ -6,7 +6,7 @@
     border: 1px solid red;
 }
 
-.general-contenitor {
+.general-container {
     width: 1000px;
     margin: 0 auto;
 }
@@ -24,4 +24,21 @@ header {
 p {
     text-align: center;
     margin-bottom: 50px;
+}
+
+/* colonna */
+.column::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    float: left;
+}
+
+.contacts-profile {
+    vertical-align: middle;
 }
