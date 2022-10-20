@@ -49,6 +49,11 @@ img {
     padding-top: 15px;
 }
 
+a {
+    text-decoration-line: none;
+    color: rgb(199, 143, 251);
+}
+
 .contacts-profile div {
     line-height: 1.5;
 }
